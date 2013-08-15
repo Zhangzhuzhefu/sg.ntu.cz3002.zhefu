@@ -7,13 +7,6 @@ gen
 #.classpath
 .settings
 
-#IntelliJ IDEA
-.idea
-*.iml
-*.ipr
-*.iws
-out
-
 #Maven
 target
 release.properties
@@ -24,14 +17,34 @@ pom.xml.*
 local.properties
 proguard.cfg
 
-#OSX
-.DS_Store
-
 #Temp
 *~
 obj
 .gradle
 
 # Eclipse generated
-libraries/aacdecoder/libs
-libraries/aac-encoder/libs
+
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
